@@ -1,1 +1,3 @@
-# teemtest.github.io
+---
+ permalink: /index.html
+ ---

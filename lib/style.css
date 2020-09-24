@@ -1,0 +1,129 @@
+h1{
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: auto auto;
+    width: 20%;
+}
+
+.hotpink {
+    color: hotpink;
+    margin-top: -1rem;
+    margin-bottom: 2.5rem;
+}
+
+q {
+    color: brown;
+}
+
+
+/* NAV BAR */
+.topnav {
+    overflow: hidden;
+    background-color: blue;
+}
+  
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: black;
+}
+
+.topnav a.active {
+
+}
+
+/* .topnav a:visited {
+    color: green;
+} */
+
+
+/* Table */
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed;
+  }
+
+table tr {
+border: 1px solid black;
+padding: .35em;
+}
+
+table td, th {
+    border: 1px solid black;
+}
+
+table th, table td {
+padding: .625em;
+}
+
+table :nth-child(3) {
+    text-align: center;
+}
+
+table :nth-child(4) {
+    text-align: right;
+}
+
+table tr:nth-child(2) {
+    background-color: #cccccc;
+}
+table th {
+    background-color: #55eecc;
+    text-align: center;
+}
+
+table tr:hover {
+    background-color: black;
+    color: white;
+}
+
+.book-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.book-container > div {
+    width: 20%;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+.book-container > div > img {
+    width: 70%;
+}
+
+.book-container > div > p {
+    color: red;
+}
+
+
+@media screen and (max-width: 800px) {
+    body {
+        font-size: 1rem;
+    }
+    
+    img {
+        width: 50%;
+    }
+
+}
+
+
